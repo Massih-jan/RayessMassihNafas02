@@ -51,7 +51,7 @@ def notice():
 
 	runtxt("\n\033[0;91mYOU ARE NOT PREMIUM USER ")
 	runtxt("\033[0;93m  SENT THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
-	runtxt("\033[0;92m ADMIN ELYAS")
+	runtxt("\033[0;92m ADMIN Massih")
 	subprocess.check_output(["am", "start", "https://m.me/Adnan.Islam.Sixty9"])
 
 def irfan():
@@ -77,38 +77,12 @@ class Main:
 		self.ok = []
 		self.cp = []
 		self.loop = 0
-		try:
-			plr = requests.get('https://github.com/MR-ELYAS/KEY/blob/main/key.txt').text
-			if basesplit in plr:
-				key = basesplit
-				stat = ("\033[0;92mPREMIUM")
-				FY = '\033[0;93m'
-				FG = '\033[0;92m'
-				GET = '\r'
-			else:
-				key = ("\033[0;91m -")
-				stat = ("\033[0;91mFREE USER")
-				FY = '\033[0;90m'
-				FG = '\033[0;90m'
-				GET = '\033[0;92m [P] GET PREMIUM'
-		except requests.exceptions.ConnectionError:
-			print("\n%s [!] NO INTERNET CONNECTION..\n"%(G))
-			exit()
-		os.system("clear")
-		
-		print ("""
-______                               ___            _
-| ___ \                             / _ \          (_)
-| |_/ /__ _ _   _  ___  ___  ___   / /_\ \_ __ ___  _ _ __
-|    // _` | | | |/ _ \/ _ \/ __|  |  _  | '_ ` _ \| | '__|
-| |\ \ (_| | |_| |  __/  __/\__ \  | | | | | | | | | | |
-\_| \_\__,_|\__, |\___|\___||___/  \_| |_/_| |_| |_|_|_|
-             __/ |
-            |___/
-
+	
+I love you Zainb 
+           
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-█  Github: https://github.com/RayeesMassihNafas02
-█  Telegram : KingMassih02
+█  Github: https://github.com/RayeesMassihNafas01
+█  Telegram : KingMassih01
 █  Modifier:  Rayees Massih Nafas
 █  Tools :  Massih pro
 █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
